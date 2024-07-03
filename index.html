@@ -22,50 +22,49 @@
     <!--HEADER-->
 
     <header>
-    <div class="BG-header">
-        <div class="flex container">
-            <div>
-                <h1>
-                    <a class="a" href="#">
-                    START BOOTSTRAP
-                    </a>
-                </h1>
-            </div>
-            <div>
-                <ul class="ul flex">
-                    <li>
-                        <a class="a" href="#">
-                        PORTAFOLIO
-
-                        </a>
-                    </li>
-                    <li>
-                        <a class="a margin-left" href="#">
-                        ABOUT
-
-                        </a>
-                    </li>
-                    <li>
-                        <a class="a margin-left" href="#">
-                        CONTACT
-
-                        </a>
-                    </li>
-                </ul>
+        <div class="BG-header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a id="color-white0" class="navbar-brand" href="#">START BOOTSTRAP</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a id="color-white" class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="color-white2" class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="color-white3" class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                                </li>        
+                            </ul>  
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
-    </div>
     </header>
     <!--MAIN-->
-    <main>
-        <div class="text BG-verdeacqua">
+    <main class="BG-verdeacqua">
+        <div class="text container">
             <div>
                 <div>
                     <img class="avatar" src="./img/avatar.svg" alt="avatar">
-            
+                    <h2 class="h2">START BOOTSTRAP</h2>
+                    <div class="divisor d-flex justify-content-center align-items-center">
+                        <div class="as-bar rounded-5 BG-white"></div>
+                        <div class="as-bar-icon fw-bold as-big-icon text-white mx-5 "><i class="bi bi-star-fill"></i></div>
+                        <div class="as-bar rounded-5 BG-white"></div>
+                    </div>
+                    <p class="text-white fs-2 pb-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                 </div> 
                 <div>
-                    <h2 class="h2">START BOOTSTRAP</h2>
+
                 </div>
 
 
@@ -76,5 +75,11 @@
         
 
     </main>
+    <footer>
+        Footer
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 </html>
