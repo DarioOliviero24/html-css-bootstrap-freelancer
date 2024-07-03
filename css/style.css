@@ -3,8 +3,12 @@
     justify-content: space-between;
     align-items: center;
 }
-.margin-left{
-    margin-left: 15px
+.margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.margin2 {
+    padding-bottom: 30px;
 }
 a {
     color: white;
@@ -25,6 +29,7 @@ a {
 #color-white3 {
     color: white;
 }
+
 ul {
     list-style-type: none;
     text-decoration: none;
@@ -40,6 +45,9 @@ ul {
 .BG-white{
     background-color: white;
 }
+.BG-black{
+    background-color: black;
+}
 .avatar{
     height: 200px;
     width: 200px;
@@ -54,7 +62,20 @@ ul {
     color: white;
     font-size: 3.5rem;
 }
+.h2-b {
+    color: black;
+    font-size: 3.5rem;
+}
 .as-bar {
     width: 170px;
     height: 5px;
 }
+.img{
+    height: 150;
+    width: 100%;
+}
+.P{
+    color: white;
+    text-align: start;   
+}
+
